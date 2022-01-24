@@ -19,7 +19,7 @@
   h5 {
     font-size: 18px;
   }
-  /* Start of navbar styling settings */
+  /* Start of navbar styling */
   #navbar-desktop {
     display: none;
   }
@@ -40,6 +40,45 @@
     border-bottom: solid #515151;
   }
 
-  /* End of navbar styling settings */
+  /* End of navbar styling */
+  /* Start of banner styling */
+  #banner {
+    margin-top: 64px;
+    background-color: #d3d3d3;
+    flex-direction: column;
+  }
+
+  #banner-image {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0px;
+  }
+
+  #banner-text {
+    box-sizing: border-box;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    padding: 32px 16px;
+  }
+
+  #banner-text > * {
+    margin: 0;
+    line-height: 150%;
+  }
+
+  #banner-text > h5 {
+    margin: 32px 0 24px;
+  }
+
+  #start-here {
+    border: none;
+    background-color: #8d8d8d;
+    width: 100%;
+    color: white;
+    padding: 8px;
+    font-size: 16px;
+  }
+  /* End of banner styling */
 }
 /* End of responsive styling settings */

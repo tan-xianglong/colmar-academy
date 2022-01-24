@@ -4,10 +4,12 @@ body {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   color: #515151;
   box-sizing: border-box;
+  width: 100%;
 }
 
 h1 {
   font-size: 30px;
+  font-weight: 700;
 }
 
 h2 {
@@ -24,6 +26,7 @@ h4 {
 
 h5 {
   font-size: 22px;
+  font-weight: 600;
 }
 
 
@@ -54,7 +57,7 @@ h5 {
 
 /* End of class selector to apply certain styling */
 
-/* Start of navbar styling settings */
+/* Start of navbar styling */
 #navbar-desktop {
   display: flex;
   right: 0;
@@ -78,4 +81,45 @@ h5 {
 #navbar-mobile > ul{
   display: none;
 }
-/* End of navbar styling settings */
+/* End of navbar styling */
+
+/* Start of banner styling */
+#banner {
+  margin-top: 64px;
+  background-color: #d3d3d3;
+  width: 100%;
+}
+
+#banner-image {
+  box-sizing: content-box;
+  width: 60%;
+  padding: 32px 24px;
+}
+
+#banner-image > img {
+  width: 100%
+}
+
+#banner-text {
+  width: 40%;
+  flex-direction: column;
+  justify-content: center;
+  padding: 32px 80px 32px 24px;
+}
+
+#banner-text > * {
+  margin: 1rem 0;
+  line-height: 130%;
+}
+
+#start-here {
+  border: none;
+  background-color: #515151;
+  max-width: 260px;
+  width: 90%;
+  color: white;
+  padding: 8px;
+  font-size: 16px;
+}
+
+/* End of banner styling */

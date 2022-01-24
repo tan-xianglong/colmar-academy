@@ -9,12 +9,13 @@
   <!-- Link up Open Sans font family for CSS uses -->
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
   <!-- Custom CSS style -->
-  <link rel="stylesheet" href="./css/global.css">
+  <link rel="stylesheet" href="./css/desktop.css">
   <link rel="stylesheet" href="./css/mobile.css">
   <title>Colmar Academy Homepage</title>
 </head>
 <body>
   <header>
+    <!-- Start of desktop navbar -->
     <nav id="navbar-desktop">
       <div>
         <a href="#" class="flex align-center text-nodecor">
@@ -32,6 +33,8 @@
         </ul>
       </div>
     </nav>
+    <!-- end of desktop navbar -->
+    <!-- start of mobile navbar -->
     <nav id="navbar-mobile">
       <ul class="flex">
         <li><a href="#" class="text-nodecor"><img src="./images/ic-logo.svg"></a></li>
@@ -40,9 +43,19 @@
         <li><a href="#" class="text-nodecor"><img src="./images/ic-login.svg"></a></li>
       </ul>
     </nav>
+    <!-- end of mobile navbar -->
   </header>
   <main>
-
+    <section class="flex" id="banner">
+      <div id="banner-image">
+        <img src="./images/banner.jpg">
+      </div>
+      <div class="flex" id="banner-text">
+        <h1>Learn something new everyday</h1>
+        <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+        <button id="start-here">Start here</button>
+      </div>
+    </section>
   </main>
   <footer>
 
