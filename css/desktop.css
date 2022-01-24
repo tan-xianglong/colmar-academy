@@ -1,9 +1,12 @@
 /* Start of default overall font size and color settings */
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-size: 16px;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   color: #515151;
-  box-sizing: border-box;
   width: 100%;
 }
 
@@ -14,6 +17,7 @@ h1 {
 
 h2 {
   font-size: 28px;
+  font-weight: 700;
 }
 
 h3 {
@@ -66,7 +70,8 @@ h5 {
   position: fixed;
   justify-content: space-between;
   align-items: center;
-  margin: 16px 24px;
+  padding: 16px 24px;
+  background-color: white;
 }
 
 #navbar-desktop > div > ul > li {
@@ -122,4 +127,78 @@ h5 {
   font-size: 16px;
 }
 
+#start-here:hover {
+  background-color: grey;
+}
+
 /* End of banner styling */
+
+/* Start of info section styling */
+#info-left {
+  box-sizing: content-box;
+  width: 60%;
+  padding: 32px 24px;
+  border-right: solid 1px lightgrey
+}
+
+#info-left-img, #info-left-img > img {
+  width: 100%;
+}
+
+#info-left > h2 {
+  margin-top: 32px;
+}
+
+#info-left > p {
+  margin-top: 24px;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+#info-left > #info-credit {
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 32px;
+}
+
+#info-right {
+  width: 40%;
+}
+.info-right-box {
+  padding: 16px;
+  border-bottom: solid 1px lightgrey;
+  align-items: center;
+}
+
+.info-right-box:hover {
+  background-color: #d3d3d3;
+}
+
+.info-right-box > .img-desktop {
+  width: 35%;
+}
+
+.info-right-box > .img-mobile {
+  display: none;
+}
+
+.info-right-box-details {
+  width: 65%;
+  padding: 0 16px;
+}
+
+.info-right-box-details > * {
+  margin: 8px 0;
+}
+
+.info-right-box-details > p {
+  font-weight: 200;
+  font-size: 14px;
+}
+
+.read-more {
+  text-decoration: none;
+  color: #00AFE9
+}
+/* end of info section styling */
