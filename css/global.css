@@ -1,0 +1,81 @@
+/* Start of default overall font size and color settings */
+body {
+  font-size: 16px;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  color: #515151;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 22px;
+}
+
+
+/* End of default style guide */
+
+/* Start of class selector to apply certain styling */
+.lighter-grey {
+  color: #8A97A8
+}
+
+.darker-grey {
+  color: #01161E;
+  font-weight: 600;
+}
+
+.flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.text-nodecor {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* End of class selector to apply certain styling */
+
+/* Start of navbar styling settings */
+#navbar-desktop {
+  display: flex;
+  right: 0;
+  left: 0;
+  top: 0;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 24px;
+}
+
+#navbar-desktop > div > ul > li {
+  margin-left: 16px;
+  padding-bottom: 4px;
+}
+
+#navbar-desktop > div > ul > li:hover {
+  border-bottom: solid #515151;
+}
+
+#navbar-mobile > ul{
+  display: none;
+}
+/* End of navbar styling settings */

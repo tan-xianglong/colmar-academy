@@ -1,0 +1,45 @@
+/* Start of responsive styling settings */
+@media screen and (max-width: 720px) {
+  h1 {
+    font-size: 26px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  h5 {
+    font-size: 18px;
+  }
+  /* Start of navbar styling settings */
+  #navbar-desktop {
+    display: none;
+  }
+
+  #navbar-mobile > ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    padding: 15px 0;
+  }
+
+
+  #navbar-mobile > ul > li:hover {
+    border-bottom: solid #515151;
+  }
+
+  /* End of navbar styling settings */
+}
+/* End of responsive styling settings */
