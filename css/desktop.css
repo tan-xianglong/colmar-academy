@@ -240,3 +240,59 @@ p {
   display: none;
 }
 /* end of course section styling */
+/* start of thesis section styling */
+#thesis {
+  padding: 32px 0 32px 24px;
+}
+
+#thesis > h2 {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+#thesis-left {
+  margin-right: 24px;
+  width: 60%;
+}
+
+#thesis-left > video {
+  width: 100%;
+}
+
+#thesis-left > h5 {
+  margin-top: 24px;
+}
+
+#thesis-left > p {
+  line-height: 150%;
+  margin-top: 8px;
+}
+
+#thesis-right {
+  width: 40%;
+}
+
+.thesis-right-box:first-child {
+  background-color: lightgrey;
+}
+
+.thesis-right-box {
+  width: 100%;
+  padding: 16px;
+  align-items: center;
+}
+
+.thesis-right-box > img {
+  width: 35%;
+  margin-right: 16px;
+}
+
+.thesis-right-box > div {
+  width: 65%;
+}
+
+.thesis-right-box > div > * {
+  margin: 8px 0;
+  line-height: 150%;  
+}
+/* end of thesis section styling */

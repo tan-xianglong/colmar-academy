@@ -141,7 +141,25 @@
   }
   /* End of course section styling */
   /* Start of Thesis section styling */
+  #thesis {
+    padding: 32px 0 24px;
+  }
   
+  #thesis-right {
+    display:none;
+  }
+
+  #thesis-left {
+    width: 100%;
+    margin: 0
+  }
+
+  #thesis-left > h5, #thesis-left > p {
+    display: none;
+  }
   /* End of thesis section styling */
+  /* start of footer styling */
+  
+  /* end of footer styling */
 }
 /* End of responsive styling settings */
