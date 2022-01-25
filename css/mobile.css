@@ -159,7 +159,9 @@
   }
   /* End of thesis section styling */
   /* start of footer styling */
-  
+  #terms{
+    display: none;
+  }
   /* end of footer styling */
 }
 /* End of responsive styling settings */

@@ -296,3 +296,20 @@ p {
   line-height: 150%;  
 }
 /* end of thesis section styling */
+/* start of footer styling */
+footer {
+  border-top: solid 1px lightgrey;
+  padding: 16px 24px 48px;
+  justify-content: space-between;
+}
+
+footer > div > p {
+  font-size: 13px;
+}
+
+#terms {
+  width: 15%;
+  justify-content: space-evenly;
+}
+
+/* end of footer styling */
