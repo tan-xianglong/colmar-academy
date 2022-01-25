@@ -116,5 +116,32 @@
     padding: 16px 16px 32px;
   }
   /* End of info section styling */
+  /* Start of course section styling */
+  #course {
+    background-color: white;
+    border-top: solid 1px rgb(224, 224, 224);
+    padding: 32px 16px;
+  }
+  
+  #course-box {
+    display: none
+  }
+
+  #course-box-mobile {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 16px;
+  }
+
+  .course-details-mobile {
+    background-color: lightgrey;
+    margin: 8px 0;
+    padding: 16px 16px 24px;
+  }
+  /* End of course section styling */
+  /* Start of Thesis section styling */
+  
+  /* End of thesis section styling */
 }
 /* End of responsive styling settings */

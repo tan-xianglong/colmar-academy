@@ -33,6 +33,11 @@ h5 {
   font-weight: 600;
 }
 
+p {
+  font-size: 16px;
+  font-weight: 200;
+}
+
 
 /* End of default style guide */
 
@@ -151,14 +156,12 @@ h5 {
 
 #info-left > p {
   margin-top: 24px;
-  font-weight: 200;
-  font-size: 14px;
   line-height: 150%;
 }
 
 #info-left > #info-credit {
   font-weight: 400;
-  font-size: 13px;
+  font-size: 14px;
   margin-top: 32px;
 }
 
@@ -192,13 +195,48 @@ h5 {
   margin: 8px 0;
 }
 
-.info-right-box-details > p {
-  font-weight: 200;
-  font-size: 14px;
-}
-
 .read-more {
   text-decoration: none;
-  color: #00AFE9
+  color: #00AFE9;
 }
 /* end of info section styling */
+/* start of course section styling */
+
+#course {
+  background: #eeeeee;
+  text-align: center;
+  padding: 32px 72px;
+}
+
+.course-card {
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.course-details {
+  background-color: white;
+  text-align: left;
+  padding: 16px 16px 24px;
+  line-height: 150%;
+  height: 100%;
+  width: 100%;
+}
+
+.course-details > h5 {
+  padding: 0 0 8px;
+}
+.course-details > p {
+  margin: 8px 0;
+}
+
+.grid {
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr 1fr;
+  gap: 32px;
+  margin-top: 32px;
+}
+
+#course-box-mobile {
+  display: none;
+}
+/* end of course section styling */
